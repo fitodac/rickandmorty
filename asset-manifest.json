@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rickandmorty/static/css/main.c112f4d2.css",
-    "main.js": "/rickandmorty/static/js/main.ab619b3a.js",
+    "main.js": "/rickandmorty/static/js/main.3f171a74.js",
     "static/media/bg-error-page.webp": "/rickandmorty/static/media/bg-error-page.eb03789a15dc6e748434.webp",
     "static/media/bg-main.webp": "/rickandmorty/static/media/bg-main.986700db830b8f7fcdbd.webp",
     "static/media/logo.webp": "/rickandmorty/static/media/logo.99431f6538fcef8bc6b9.webp",
@@ -11,10 +11,10 @@
     "static/media/icon-alien.webp": "/rickandmorty/static/media/icon-alien.d5c3ccc8f92ea7d32d24.webp",
     "index.html": "/rickandmorty/index.html",
     "main.c112f4d2.css.map": "/rickandmorty/static/css/main.c112f4d2.css.map",
-    "main.ab619b3a.js.map": "/rickandmorty/static/js/main.ab619b3a.js.map"
+    "main.3f171a74.js.map": "/rickandmorty/static/js/main.3f171a74.js.map"
   },
   "entrypoints": [
     "static/css/main.c112f4d2.css",
-    "static/js/main.ab619b3a.js"
+    "static/js/main.3f171a74.js"
   ]
 }
