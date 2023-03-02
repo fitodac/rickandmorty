@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f319f13.css",
-    "main.js": "/static/js/main.702f7c28.js",
-    "static/media/bg-error-page.webp": "/static/media/bg-error-page.eb03789a15dc6e748434.webp",
-    "static/media/bg-main.webp": "/static/media/bg-main.986700db830b8f7fcdbd.webp",
-    "static/media/logo.webp": "/static/media/logo.99431f6538fcef8bc6b9.webp",
-    "static/media/empty.webp": "/static/media/empty.8c7a4a7fef7089405ebc.webp",
-    "static/media/loader.webp": "/static/media/loader.12382fe9a622019820d6.webp",
-    "static/media/icon-human.webp": "/static/media/icon-human.83941be4a812248712f2.webp",
-    "static/media/icon-alien.webp": "/static/media/icon-alien.d5c3ccc8f92ea7d32d24.webp",
-    "index.html": "/index.html",
-    "main.8f319f13.css.map": "/static/css/main.8f319f13.css.map",
-    "main.702f7c28.js.map": "/static/js/main.702f7c28.js.map"
+    "main.css": "/rickandmorty/static/css/main.c112f4d2.css",
+    "main.js": "/rickandmorty/static/js/main.62bfc60e.js",
+    "static/media/bg-error-page.webp": "/rickandmorty/static/media/bg-error-page.eb03789a15dc6e748434.webp",
+    "static/media/bg-main.webp": "/rickandmorty/static/media/bg-main.986700db830b8f7fcdbd.webp",
+    "static/media/logo.webp": "/rickandmorty/static/media/logo.99431f6538fcef8bc6b9.webp",
+    "static/media/empty.webp": "/rickandmorty/static/media/empty.8c7a4a7fef7089405ebc.webp",
+    "static/media/loader.webp": "/rickandmorty/static/media/loader.12382fe9a622019820d6.webp",
+    "static/media/icon-human.webp": "/rickandmorty/static/media/icon-human.83941be4a812248712f2.webp",
+    "static/media/icon-alien.webp": "/rickandmorty/static/media/icon-alien.d5c3ccc8f92ea7d32d24.webp",
+    "index.html": "/rickandmorty/index.html",
+    "main.c112f4d2.css.map": "/rickandmorty/static/css/main.c112f4d2.css.map",
+    "main.62bfc60e.js.map": "/rickandmorty/static/js/main.62bfc60e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f319f13.css",
-    "static/js/main.702f7c28.js"
+    "static/css/main.c112f4d2.css",
+    "static/js/main.62bfc60e.js"
   ]
 }
