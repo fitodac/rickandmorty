@@ -21,6 +21,10 @@ const router = createBrowserRouter([
 				element: <Auth><Cards /></Auth>
 			},
 			{
+				path: '/rickandmorty',
+				element: <Form />
+			},
+			{
 				path: '/about',
 				element: <About />,
 				errorElement: <ErrorComponent />

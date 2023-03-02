@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import bg from './assets/img/bg-error-page.webp'
 
-export default ErrorPage => (
+const ErrorPage = () => (
 	<div className="bg-indigo-900 w-screen h-screen relative">
 		<div className="w-full h-full max-w-lg px-6 mx-auto xl:px-0 relative z-10">
 			<div className="text-white grid h-full place-content-center text-center">
@@ -25,3 +25,6 @@ export default ErrorPage => (
 		></div>
 	</div>
 )
+
+
+export default ErrorPage

@@ -27,7 +27,7 @@ const sortDESC = (a, b) => {
 
 
 
-export default Cards => {
+const Cards = () => {
 
 	const { 
 		characters, 
@@ -132,3 +132,7 @@ export default Cards => {
 		</section>
   );
 }
+
+
+
+export default Cards

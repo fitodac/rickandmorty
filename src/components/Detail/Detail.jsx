@@ -12,7 +12,7 @@ import './Detail.css'
 
 
 
-export default Detail => {
+const Detail = () => {
 
 	const navigate = useNavigate()
 	const { characters } = useContext(AppContext)
@@ -104,3 +104,5 @@ export default Detail => {
 		</section>
   );
 }
+
+export default Detail

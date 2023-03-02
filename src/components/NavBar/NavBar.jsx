@@ -12,7 +12,6 @@ import localforage from 'localforage'
 import { 
 	HiOutlineTrash,
 	HiOutlinePlusCircle,
-	HiOutlineHeart,
 	HiHeart,
 	HiOutlineViewGridAdd
 } from 'react-icons/hi'
@@ -23,7 +22,7 @@ import css from './NavBar.module.css'
 import ImgLogo from '../../assets/img/logo.webp'
 
 
-export default NavBar => {
+const NavBar = () => {
 
 	const navigate = useNavigate()
 	const [fav, setFav] = useState(0)
@@ -55,9 +54,6 @@ export default NavBar => {
 	}
 
 
-	const watchFavorites = () => {
-		toggleFavorites()
-	}
 
   return (
 		<nav className="py-2 relative z-30">
@@ -141,3 +137,6 @@ export default NavBar => {
 		</nav>
   );
 }
+
+
+export default NavBar

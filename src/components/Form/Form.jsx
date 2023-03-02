@@ -1,7 +1,12 @@
-import { useState } from 'react'
+import { 
+	useState, 
+	useEffect,
+	useContext 
+} from 'react'
 import { validate } from './validate'
 import localforage from 'localforage'
 import { useNavigate } from 'react-router-dom'
+import { AppContext } from '../../context/context'
 
 import css from './Form.module.css'
 
@@ -9,8 +14,10 @@ import css from './Form.module.css'
 const form_model = { user: '', password: '' }
 
 
-export default Form => {
+const Form = () => {
+	
 	const navigate = useNavigate()
+	const { updateAuth } = useContext(AppContext)
 
 	const [form, setForm] = useState({ user: 'rick@rickandmortyapp.com', password: 'S0!henry' })
 	const [errors, setErrors] = useState({})
@@ -57,6 +64,14 @@ export default Form => {
 			setDisplayErrors(true)
 		}
 	}
+
+
+	useEffect(async () => {
+		await localforage.getItem('user').then(resp => {
+			if( resp ) navigate('/')
+			updateAuth(resp)
+		})
+	}, [])
 
 
 	return (
@@ -112,3 +127,5 @@ export default Form => {
 		</>
 	);
 }
+
+export default Form

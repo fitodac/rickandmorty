@@ -1,7 +1,4 @@
-import { 
-	useState,
-	useContext
-} from 'react'
+import { useContext } from 'react'
 import { AppContext } from '../../context/context'
 
 import css from './Filters.module.css'
@@ -12,7 +9,7 @@ import {
 } from 'react-icons/hi'
 
 
-export default Filters => {
+const Filters = () => {
 
 	const { 
 		filters,
@@ -107,3 +104,6 @@ export default Filters => {
 		</div>
 	)
 }
+
+
+export default Filters

@@ -1,4 +1,4 @@
-export default About => (
+const About = () => (
 	<section className="mt-20">
 		<div className="w-full max-w-xl px-6 mx-auto xl:px-0">
 			<div className="text-indigo-100">
@@ -57,10 +57,12 @@ export default About => (
 
 					<div className="text-sm mt-8">
 						fitodac@gmail.com<br/>
-						<a href="//fitodac.com" target="_blank">fitodac.com</a>
+						<a href="//fitodac.com" target="_blank" rel="noreferrer">fitodac.com</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 )
+
+export default About

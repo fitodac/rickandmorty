@@ -9,5 +9,5 @@ export function validate(inputs) {
 	if (!regexPassword.test(inputs.password)) errors.password = "La contraseña debe tener una letra minúscula, una letra mayúscula, un número, un carácter especial"
 	if (inputs.password.length<6) errors.password = "La contraseña debe terner minimo 6 caracteres"
 	if (inputs.password.length>10) errors.password = "La contraseña debe terner maximo 10 caracteres"
-	return errors;
+	return errors
 }
