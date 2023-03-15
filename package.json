@@ -1,6 +1,6 @@
 {
-	"homepage": "https://fitodac.github.io/rickandmorty",
 	"name": "rick_y_morty",
+	"homepage": "https://fitodac.github.io/rickandmorty",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
